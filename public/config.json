@@ -1,0 +1,50 @@
+{
+  "title": "MiniDi HyperGraph Network",
+  "subtitle": "Exploring decentralized knowledge graphs across countries and domains",
+  "featured_pool": [
+    {
+      "id": "Q90",
+      "repo": "minidi-data-country.fr",
+      "label": "Paris",
+      "desc": "Capital and largest city of France, situated on the Seine River."
+    },
+    {
+      "id": "Q881",
+      "repo": "minidi-data-country.vn",
+      "label": "Vietnam",
+      "desc": "A vibrant Southeast Asian country known for its rich history, diverse cultures, and scenic geography."
+    },
+    {
+      "id": "Q12091",
+      "repo": "minidi-data-country.fr",
+      "label": "Henry Dunant",
+      "desc": "Swiss businessman and social activist, co-founder of the Red Cross and first Nobel Peace Prize laureate."
+    },
+    {
+      "id": "Q30755",
+      "repo": "minidi-data-country.fr",
+      "label": "Auguste Rodin",
+      "desc": "Famous French sculptor, generally considered the founder of modern sculpture."
+    }
+  ],
+  "domains": [
+    {
+      "id": "vn",
+      "type": "country",
+      "name": "Vietnam",
+      "emoji": "🇻🇳",
+      "url": "https://minidivn.github.io/minidi-data-country.vn/",
+      "github": "minidivn/minidi-data-country.vn",
+      "description": "Dynasty trees, administration areas, events, and cultural nodes of Vietnam."
+    },
+    {
+      "id": "fr",
+      "type": "country",
+      "name": "France",
+      "emoji": "🇫🇷",
+      "url": "https://minidivn.github.io/minidi-data-country.fr/",
+      "github": "minidivn/minidi-data-country.fr",
+      "description": "Historical timelines, medieval events, places, and key figures of France."
+    }
+  ]
+}
