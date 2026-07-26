@@ -18,7 +18,7 @@ const landmarks = [
   { name: "Mont Saint-Michel", stat: "Q4117 • Nodes: 78", desc: "Tidal island and famous monastery in Normandy, France.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q4117" },
   { name: "Brandenburg Gate", stat: "Q82118 • Nodes: 94", desc: "18th-century neoclassical monument in Berlin, symbol of unity.", link: "https://minidivn.github.io/minidi-data-country.de/#Q82118" },
   { name: "Hue Imperial City", stat: "Q10772277 • Nodes: 140", desc: "Former imperial capital of the Nguyen Dynasty in Vietnam.", link: "https://minidivn.github.io/minidi-data-country.vn/#Q10772277" },
-  { name: "Statue of Liberty", stat: "Q9284 • Nodes: 105", desc: "Colossal neoclassical sculpture on Liberty Island in New York Harbor.", link: "https://minidivn.github.io/minidi-data-country.us/#Q9284" }
+  { name: "Statue of Liberty", stat: "Q9202 • Nodes: 105", desc: "Colossal neoclassical sculpture on Liberty Island in New York Harbor.", link: "https://minidivn.github.io/minidi-data-country.us/#Q9202" }
 ];
 
 const scienceNodes = [
