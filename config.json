@@ -54,6 +54,15 @@
       "url": "https://minidivn.github.io/minidi-data-country.de/",
       "github": "minidivn/minidi-data-country.de",
       "description": "Historical timelines, science pioneers, landmarks, and key figures of Germany."
+    },
+    {
+      "id": "en",
+      "type": "country",
+      "name": "United States",
+      "emoji": "🇺🇸",
+      "url": "https://minidivn.github.io/minidi-data-country.en/",
+      "github": "minidivn/minidi-data-country.en",
+      "description": "Historical timelines, presidents, scientists, and geography of the United States."
     }
   ]
 }
