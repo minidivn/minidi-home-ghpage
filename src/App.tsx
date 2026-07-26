@@ -9,29 +9,29 @@ import { HelpPage } from "./components/HelpPage";
 import { AboutPage } from "./components/AboutPage";
 
 const landmarks = [
-  { name: "Paris", stat: "Q90 • Nodes: 284", desc: "Capital of France, centered on the historic Seine River." },
-  { name: "Hanoi", stat: "Q3602 • Nodes: 195", desc: "Capital of Vietnam, known for its centuries-old architecture." },
-  { name: "Berlin", stat: "Q64 • Nodes: 220", desc: "Capital of Germany, rich in political and modern history." },
-  { name: "Ha Long Bay", stat: "Q190128 • Nodes: 85", desc: "UNESCO World Heritage site famous for towering limestone pillars." },
-  { name: "Eiffel Tower", stat: "Q243 • Nodes: 112", desc: "Iconic wrought-iron lattice tower on the Champ de Mars in Paris." },
-  { name: "Hoan Kiem Lake", stat: "Q1191004 • Nodes: 64", desc: "Historic lake in the heart of Hanoi, associated with the turtle legend." },
-  { name: "Mont Saint-Michel", stat: "Q4117 • Nodes: 78", desc: "Tidal island and famous monastery in Normandy, France." },
-  { name: "Brandenburg Gate", stat: "Q82118 • Nodes: 94", desc: "18th-century neoclassical monument in Berlin, symbol of unity." },
-  { name: "Hue Imperial City", stat: "Q10772277 • Nodes: 140", desc: "Former imperial capital of the Nguyen Dynasty in Vietnam." },
-  { name: "Palace of Versailles", stat: "Q46679 • Nodes: 155", desc: "Principal royal residence of France from 1682 until the Revolution." }
+  { name: "Paris", stat: "Q90 • Nodes: 284", desc: "Capital of France, centered on the historic Seine River.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q90" },
+  { name: "Hanoi", stat: "Q3602 • Nodes: 195", desc: "Capital of Vietnam, known for its centuries-old architecture.", link: "https://minidivn.github.io/minidi-data-country.vn/#Q3602" },
+  { name: "Berlin", stat: "Q64 • Nodes: 220", desc: "Capital of Germany, rich in political and modern history.", link: "https://minidivn.github.io/minidi-data-country.de/#Q64" },
+  { name: "Ha Long Bay", stat: "Q190128 • Nodes: 85", desc: "UNESCO World Heritage site famous for towering limestone pillars.", link: "https://minidivn.github.io/minidi-data-country.vn/#Q190128" },
+  { name: "Eiffel Tower", stat: "Q243 • Nodes: 112", desc: "Iconic wrought-iron lattice tower on the Champ de Mars in Paris.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q243" },
+  { name: "Hoan Kiem Lake", stat: "Q1191004 • Nodes: 64", desc: "Historic lake in the heart of Hanoi, associated with the turtle legend.", link: "https://minidivn.github.io/minidi-data-country.vn/#Q1191004" },
+  { name: "Mont Saint-Michel", stat: "Q4117 • Nodes: 78", desc: "Tidal island and famous monastery in Normandy, France.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q4117" },
+  { name: "Brandenburg Gate", stat: "Q82118 • Nodes: 94", desc: "18th-century neoclassical monument in Berlin, symbol of unity.", link: "https://minidivn.github.io/minidi-data-country.de/#Q82118" },
+  { name: "Hue Imperial City", stat: "Q10772277 • Nodes: 140", desc: "Former imperial capital of the Nguyen Dynasty in Vietnam.", link: "https://minidivn.github.io/minidi-data-country.vn/#Q10772277" },
+  { name: "Palace of Versailles", stat: "Q46679 • Nodes: 155", desc: "Principal royal residence of France from 1682 until the Revolution.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q46679" }
 ];
 
 const scienceNodes = [
-  { name: "Albert Einstein", stat: "Q937 • Degree: 32", desc: "Theoretical physicist who developed the theory of relativity." },
-  { name: "Marie Curie", stat: "Q7186 • Degree: 28", desc: "Physicist and chemist who conducted pioneering research on radioactivity." },
-  { name: "Isaac Newton", stat: "Q935 • Degree: 35", desc: "Key figure in the Scientific Revolution, formulated laws of motion." },
-  { name: "Alexander von Humboldt", stat: "Q6604 • Degree: 22", desc: "German polymath and naturalist who laid foundations for biogeography." },
-  { name: "Henry Dunant", stat: "Q12089 • Degree: 15", desc: "Founder of the Red Cross and first Nobel Peace Prize laureate." },
-  { name: "Charles Darwin", stat: "Q1035 • Degree: 30", desc: "Naturalist who proposed the theory of evolution by natural selection." },
-  { name: "Louis Pasteur", stat: "Q38125 • Degree: 26", desc: "Chemist and microbiologist renowned for discoveries in vaccination." },
-  { name: "Galileo Galilei", stat: "Q307 • Degree: 29", desc: "Astronomer and physicist, father of observational astronomy." },
-  { name: "Ada Lovelace", stat: "Q11596 • Degree: 18", desc: "Mathematician chiefly known for work on the Analytical Engine." },
-  { name: "Stephen Hawking", stat: "Q17714 • Degree: 25", desc: "Theoretical physicist and cosmologist known for black hole radiation." }
+  { name: "Albert Einstein", stat: "Q937 • Degree: 32", desc: "Theoretical physicist who developed the theory of relativity.", link: "https://minidivn.github.io/minidi-data-country.de/#Q937" },
+  { name: "Marie Curie", stat: "Q7186 • Degree: 28", desc: "Physicist and chemist who conducted pioneering research on radioactivity.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q7186" },
+  { name: "Isaac Newton", stat: "Q935 • Degree: 35", desc: "Key figure in the Scientific Revolution, formulated laws of motion.", link: "https://minidivn.github.io/minidi-data-country.en/#Q935" },
+  { name: "Alexander von Humboldt", stat: "Q6604 • Degree: 22", desc: "German polymath and naturalist who laid foundations for biogeography.", link: "https://minidivn.github.io/minidi-data-country.de/#Q6604" },
+  { name: "Henry Dunant", stat: "Q12089 • Degree: 15", desc: "Founder of the Red Cross and first Nobel Peace Prize laureate.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q12089" },
+  { name: "Charles Darwin", stat: "Q1035 • Degree: 30", desc: "Naturalist who proposed the theory of evolution by natural selection.", link: "https://minidivn.github.io/minidi-data-country.en/#Q1035" },
+  { name: "Louis Pasteur", stat: "Q38125 • Degree: 26", desc: "Chemist and microbiologist renowned for discoveries in vaccination.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q38125" },
+  { name: "Galileo Galilei", stat: "Q307 • Degree: 29", desc: "Astronomer and physicist, father of observational astronomy.", link: "https://minidivn.github.io/minidi-data-country.en/#Q307" },
+  { name: "Ada Lovelace", stat: "Q11596 • Degree: 18", desc: "Mathematician chiefly known for work on the Analytical Engine.", link: "https://minidivn.github.io/minidi-data-country.en/#Q11596" },
+  { name: "Stephen Hawking", stat: "Q17714 • Degree: 25", desc: "Theoretical physicist and cosmologist known for black hole radiation.", link: "https://minidivn.github.io/minidi-data-country.en/#Q17714" }
 ];
 
 function App() {
@@ -130,25 +130,39 @@ function App() {
                     <div className="highlights-col">
                       <h3 className="col-title">📍 Geographic & Historical Landmarks</h3>
                       {landmarks.map((item, idx) => (
-                        <div key={idx} className="highlight-item">
+                        <a
+                          key={idx}
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="highlight-item"
+                          style={{ textDecoration: "none", color: "inherit", display: "block" }}
+                        >
                           <div className="highlight-header">
                             <span className="highlight-name">{item.name}</span>
                             <span className="highlight-stat">{item.stat}</span>
                           </div>
                           <p className="highlight-desc">{item.desc}</p>
-                        </div>
+                        </a>
                       ))}
                     </div>
                     <div className="highlights-col">
                       <h3 className="col-title">🧪 Scientific & Cultural Nodes</h3>
                       {scienceNodes.map((item, idx) => (
-                        <div key={idx} className="highlight-item">
+                        <a
+                          key={idx}
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="highlight-item"
+                          style={{ textDecoration: "none", color: "inherit", display: "block" }}
+                        >
                           <div className="highlight-header">
                             <span className="highlight-name">{item.name}</span>
                             <span className="highlight-stat">{item.stat}</span>
                           </div>
                           <p className="highlight-desc">{item.desc}</p>
-                        </div>
+                        </a>
                       ))}
                     </div>
                   </div>

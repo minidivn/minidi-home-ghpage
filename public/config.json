@@ -45,6 +45,15 @@
       "url": "https://minidivn.github.io/minidi-data-country.fr/",
       "github": "minidivn/minidi-data-country.fr",
       "description": "Historical timelines, medieval events, places, and key figures of France."
+    },
+    {
+      "id": "de",
+      "type": "country",
+      "name": "Germany",
+      "emoji": "🇩🇪",
+      "url": "https://minidivn.github.io/minidi-data-country.de/",
+      "github": "minidivn/minidi-data-country.de",
+      "description": "Historical timelines, science pioneers, landmarks, and key figures of Germany."
     }
   ]
 }
