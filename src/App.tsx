@@ -29,9 +29,9 @@ const scienceNodes = [
   { name: "Henry Dunant", stat: "Q12089 • Degree: 15", desc: "Founder of the Red Cross and first Nobel Peace Prize laureate.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q12089" },
   { name: "Charles Darwin", stat: "Q1035 • Degree: 30", desc: "Naturalist who proposed the theory of evolution by natural selection.", link: "https://minidivn.github.io/minidi-data-country.en/#Q1035" },
   { name: "Louis Pasteur", stat: "Q38125 • Degree: 26", desc: "Chemist and microbiologist renowned for discoveries in vaccination.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q38125" },
-  { name: "Galileo Galilei", stat: "Q307 • Degree: 29", desc: "Astronomer and physicist, father of observational astronomy.", link: "https://minidivn.github.io/minidi-data-country.en/#Q307" },
+  { name: "Max Planck", stat: "Q41697 • Degree: 20", desc: "German physicist who discovered energy quanta, founding quantum theory.", link: "https://minidivn.github.io/minidi-data-country.de/#Q41697" },
   { name: "Ada Lovelace", stat: "Q11596 • Degree: 18", desc: "Mathematician chiefly known for work on the Analytical Engine.", link: "https://minidivn.github.io/minidi-data-country.en/#Q11596" },
-  { name: "Stephen Hawking", stat: "Q17714 • Degree: 25", desc: "Theoretical physicist and cosmologist known for black hole radiation.", link: "https://minidivn.github.io/minidi-data-country.en/#Q17714" }
+  { name: "Johannes Kepler", stat: "Q8963 • Degree: 24", desc: "German astronomer and mathematician known for his laws of planetary motion.", link: "https://minidivn.github.io/minidi-data-country.de/#Q8963" }
 ];
 
 function App() {
