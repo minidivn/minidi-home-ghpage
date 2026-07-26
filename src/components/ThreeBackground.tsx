@@ -194,10 +194,10 @@ export const ThreeBackground: React.FC = () => {
     lineGeometry.setAttribute("color", new THREE.Float32BufferAttribute(lineColors, 3));
 
     const lineMaterial = new THREE.LineBasicMaterial({
-      vertexColors: true,
+      color: 0x06b6d4, // Bright cyan
       transparent: true,
-      opacity: 0.15,
-      blending: THREE.AdditiveBlending
+      opacity: 0.45, // Boosted opacity
+      blending: THREE.NormalBlending // Normal blending for maximum visibility
     });
 
     const edges = new THREE.LineSegments(lineGeometry, lineMaterial);

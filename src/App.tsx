@@ -8,6 +8,32 @@ import { HGQLExplorer } from "./components/HGQLExplorer";
 import { HelpPage } from "./components/HelpPage";
 import { AboutPage } from "./components/AboutPage";
 
+const landmarks = [
+  { name: "Paris", stat: "Q90 • Nodes: 284", desc: "Capital of France, centered on the historic Seine River." },
+  { name: "Hanoi", stat: "Q3602 • Nodes: 195", desc: "Capital of Vietnam, known for its centuries-old architecture." },
+  { name: "Berlin", stat: "Q64 • Nodes: 220", desc: "Capital of Germany, rich in political and modern history." },
+  { name: "Ha Long Bay", stat: "Q190128 • Nodes: 85", desc: "UNESCO World Heritage site famous for towering limestone pillars." },
+  { name: "Eiffel Tower", stat: "Q243 • Nodes: 112", desc: "Iconic wrought-iron lattice tower on the Champ de Mars in Paris." },
+  { name: "Hoan Kiem Lake", stat: "Q1191004 • Nodes: 64", desc: "Historic lake in the heart of Hanoi, associated with the turtle legend." },
+  { name: "Mont Saint-Michel", stat: "Q4117 • Nodes: 78", desc: "Tidal island and famous monastery in Normandy, France." },
+  { name: "Brandenburg Gate", stat: "Q82118 • Nodes: 94", desc: "18th-century neoclassical monument in Berlin, symbol of unity." },
+  { name: "Hue Imperial City", stat: "Q10772277 • Nodes: 140", desc: "Former imperial capital of the Nguyen Dynasty in Vietnam." },
+  { name: "Palace of Versailles", stat: "Q46679 • Nodes: 155", desc: "Principal royal residence of France from 1682 until the Revolution." }
+];
+
+const scienceNodes = [
+  { name: "Albert Einstein", stat: "Q937 • Degree: 32", desc: "Theoretical physicist who developed the theory of relativity." },
+  { name: "Marie Curie", stat: "Q7186 • Degree: 28", desc: "Physicist and chemist who conducted pioneering research on radioactivity." },
+  { name: "Isaac Newton", stat: "Q935 • Degree: 35", desc: "Key figure in the Scientific Revolution, formulated laws of motion." },
+  { name: "Alexander von Humboldt", stat: "Q6604 • Degree: 22", desc: "German polymath and naturalist who laid foundations for biogeography." },
+  { name: "Henry Dunant", stat: "Q12089 • Degree: 15", desc: "Founder of the Red Cross and first Nobel Peace Prize laureate." },
+  { name: "Charles Darwin", stat: "Q1035 • Degree: 30", desc: "Naturalist who proposed the theory of evolution by natural selection." },
+  { name: "Louis Pasteur", stat: "Q38125 • Degree: 26", desc: "Chemist and microbiologist renowned for discoveries in vaccination." },
+  { name: "Galileo Galilei", stat: "Q307 • Degree: 29", desc: "Astronomer and physicist, father of observational astronomy." },
+  { name: "Ada Lovelace", stat: "Q11596 • Degree: 18", desc: "Mathematician chiefly known for work on the Analytical Engine." },
+  { name: "Stephen Hawking", stat: "Q17714 • Degree: 25", desc: "Theoretical physicist and cosmologist known for black hole radiation." }
+];
+
 function App() {
   const [config, setConfig] = useState<PortalConfig | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
@@ -96,6 +122,41 @@ function App() {
             {!searchQuery && <FeaturedEntity entity={featuredEntity} />}
             
             <main>
+              {/* Highlights section (only if not searching) */}
+              {!searchQuery && (
+                <section className="highlights-section">
+                  <h2 className="section-title">✨ Key Node Highlights</h2>
+                  <div className="highlights-grid">
+                    <div className="highlights-col">
+                      <h3 className="col-title">📍 Geographic & Historical Landmarks</h3>
+                      {landmarks.map((item, idx) => (
+                        <div key={idx} className="highlight-item">
+                          <div className="highlight-header">
+                            <span className="highlight-name">{item.name}</span>
+                            <span className="highlight-stat">{item.stat}</span>
+                          </div>
+                          <p className="highlight-desc">{item.desc}</p>
+                        </div>
+                      ))}
+                    </div>
+                    <div className="highlights-col">
+                      <h3 className="col-title">🧪 Scientific & Cultural Nodes</h3>
+                      {scienceNodes.map((item, idx) => (
+                        <div key={idx} className="highlight-item">
+                          <div className="highlight-header">
+                            <span className="highlight-name">{item.name}</span>
+                            <span className="highlight-stat">{item.stat}</span>
+                          </div>
+                          <p className="highlight-desc">{item.desc}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </section>
+              )}
+
+              <h2 className="section-title">🌐 Countries Graph</h2>
+              
               <div className="domain-grid">
                 {filteredDomains.map((domain: DomainItem) => (
                   <DomainCard key={domain.id} domain={domain} />
