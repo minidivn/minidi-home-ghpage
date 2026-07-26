@@ -25,12 +25,12 @@ const scienceNodes = [
   { name: "Albert Einstein", stat: "Q937 • Degree: 32", desc: "Theoretical physicist who developed the theory of relativity.", link: "https://minidivn.github.io/minidi-data-country.de/#Q937" },
   { name: "Marie Curie", stat: "Q7186 • Degree: 28", desc: "Physicist and chemist who conducted pioneering research on radioactivity.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q7186" },
   { name: "Isaac Newton", stat: "Q935 • Degree: 35", desc: "Key figure in the Scientific Revolution, formulated laws of motion.", link: "https://minidivn.github.io/minidi-data-country.en/#Q935" },
-  { name: "Alexander von Humboldt", stat: "Q6604 • Degree: 22", desc: "German polymath and naturalist who laid foundations for biogeography.", link: "https://minidivn.github.io/minidi-data-country.de/#Q6604" },
-  { name: "Henry Dunant", stat: "Q12089 • Degree: 15", desc: "Founder of the Red Cross and first Nobel Peace Prize laureate.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q12089" },
+  { name: "Alexander von Humboldt", stat: "Q6694 • Degree: 22", desc: "German polymath and naturalist who laid foundations for biogeography.", link: "https://minidivn.github.io/minidi-data-country.de/#Q6694" },
+  { name: "Henry Dunant", stat: "Q12091 • Degree: 15", desc: "Founder of the Red Cross and first Nobel Peace Prize laureate.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q12091" },
   { name: "Charles Darwin", stat: "Q1035 • Degree: 30", desc: "Naturalist who proposed the theory of evolution by natural selection.", link: "https://minidivn.github.io/minidi-data-country.en/#Q1035" },
   { name: "Louis Pasteur", stat: "Q38125 • Degree: 26", desc: "Chemist and microbiologist renowned for discoveries in vaccination.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q38125" },
   { name: "Max Planck", stat: "Q41697 • Degree: 20", desc: "German physicist who discovered energy quanta, founding quantum theory.", link: "https://minidivn.github.io/minidi-data-country.de/#Q41697" },
-  { name: "Ada Lovelace", stat: "Q11596 • Degree: 18", desc: "Mathematician chiefly known for work on the Analytical Engine.", link: "https://minidivn.github.io/minidi-data-country.en/#Q11596" },
+  { name: "Ada Lovelace", stat: "Q7259 • Degree: 18", desc: "Mathematician chiefly known for work on the Analytical Engine.", link: "https://minidivn.github.io/minidi-data-country.en/#Q7259" },
   { name: "Johannes Kepler", stat: "Q8963 • Degree: 24", desc: "German astronomer and mathematician known for his laws of planetary motion.", link: "https://minidivn.github.io/minidi-data-country.de/#Q8963" }
 ];
 
