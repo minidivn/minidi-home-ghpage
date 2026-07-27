@@ -16,7 +16,7 @@ const landmarks = [
   { name: "Eiffel Tower", stat: "Q243 • Nodes: 112", desc: "Iconic wrought-iron lattice tower on the Champ de Mars in Paris.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q243" },
   { name: "Hoan Kiem Lake", stat: "Q1191004 • Nodes: 64", desc: "Historic lake in the heart of Hanoi, associated with the turtle legend.", link: "https://minidivn.github.io/minidi-data-country.vn/#Q1191004" },
   { name: "Mont Saint-Michel", stat: "Q4117 • Nodes: 78", desc: "Tidal island and famous monastery in Normandy, France.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q4117" },
-  { name: "Brandenburg Gate", stat: "Q82118 • Nodes: 94", desc: "18th-century neoclassical monument in Berlin, symbol of unity.", link: "https://minidivn.github.io/minidi-data-country.de/#Q82118" },
+  { name: "Brandenburg Gate", stat: "Q82425 • Nodes: 94", desc: "18th-century neoclassical monument in Berlin, symbol of unity.", link: "https://minidivn.github.io/minidi-data-country.de/#Q82425" },
   { name: "Hue Imperial City", stat: "Q10772277 • Nodes: 140", desc: "Former imperial capital of the Nguyen Dynasty in Vietnam.", link: "https://minidivn.github.io/minidi-data-country.vn/#Q10772277" },
   { name: "Statue of Liberty", stat: "Q9202 • Nodes: 105", desc: "Colossal neoclassical sculpture on Liberty Island in New York Harbor.", link: "https://minidivn.github.io/minidi-data-country.us/#Q9202" }
 ];
@@ -29,7 +29,7 @@ const scienceNodes = [
   { name: "Henry Dunant", stat: "Q12091 • Degree: 15", desc: "Founder of the Red Cross and first Nobel Peace Prize laureate.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q12091" },
   { name: "Charles Darwin", stat: "Q1035 • Degree: 30", desc: "Naturalist who proposed the theory of evolution by natural selection.", link: "https://minidivn.github.io/minidi-data-country.en/#Q1035" },
   { name: "Louis Pasteur", stat: "Q38125 • Degree: 26", desc: "Chemist and microbiologist renowned for discoveries in vaccination.", link: "https://minidivn.github.io/minidi-data-country.fr/#Q38125" },
-  { name: "Max Planck", stat: "Q41697 • Degree: 20", desc: "German physicist who discovered energy quanta, founding quantum theory.", link: "https://minidivn.github.io/minidi-data-country.de/#Q41697" },
+  { name: "Max Planck", stat: "Q9021 • Degree: 20", desc: "German physicist who discovered energy quanta, founding quantum theory.", link: "https://minidivn.github.io/minidi-data-country.de/#Q9021" },
   { name: "Ada Lovelace", stat: "Q7259 • Degree: 18", desc: "Mathematician chiefly known for work on the Analytical Engine.", link: "https://minidivn.github.io/minidi-data-country.en/#Q7259" },
   { name: "Johannes Kepler", stat: "Q8963 • Degree: 24", desc: "German astronomer and mathematician known for his laws of planetary motion.", link: "https://minidivn.github.io/minidi-data-country.de/#Q8963" }
 ];
